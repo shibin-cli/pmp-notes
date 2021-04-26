@@ -1,6 +1,6 @@
 module.exports = {
-    base:'/pmp-notes/',
-    dest:'./dist',
+    base: '/pmp-notes/',
+    dest: './dist',
     title: 'PMP学习笔记',
     description: 'PMP学习笔记',
     themeConfig: {
@@ -19,10 +19,11 @@ module.exports = {
             ['/3', '项目经理的角色'],
             ['/4', '项目整合管理'],
             ['/5', '项目范围管理'],
+            ['/6', '项目进度管理'],
         ]
     },
     plugins: ['@vuepress/pwa', {
         serviceWorker: true,
         updatePopup: true
-    }],
-  }
+    }]
+}
