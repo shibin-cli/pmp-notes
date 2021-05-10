@@ -29,14 +29,15 @@ module.exports = {
                 children: [
                     ['/guide/','开始'],
                     ['/guide/1', '引论'],
-                    ['/guide/2', '项目运行环境'],
+                    ['/guide/2', '运行环境'],
                     ['/guide/3', '项目经理的角色'],
-                    ['/guide/4', '项目整合管理'],
-                    ['/guide/5', '项目范围管理'],
-                    ['/guide/6', '项目进度管理'],
-                    ['/guide/7', '项目成本管理'],
-                    ['/guide/8', '项目质量管理'],
-                    ['/guide/9', '项目资源管理'],
+                    ['/guide/4', '整合管理'],
+                    ['/guide/5', '范围管理'],
+                    ['/guide/6', '进度管理'],
+                    ['/guide/7', '成本管理'],
+                    ['/guide/8', '质量管理'],
+                    ['/guide/9', '资源管理'],
+                    ['/guide/10', '沟通管理'],
 
                 ]
             },
@@ -47,12 +48,13 @@ module.exports = {
                     ['/exercises/1', '引论'],
                     // ['/exercises/1', '项目运行环境']
                     // ['/exercises/3', '项目经理的角色']
-                    ['/exercises/4', '项目整合管理'],
-                    ['/exercises/5', '项目范围管理'],
-                    ['/exercises/6', '项目进度管理'],
-                    ['/exercises/7', '项目成本管理'],
-                    ['/exercises/8', '项目质量管理'],
-                    ['/exercises/9', '项目资源管理'],
+                    ['/exercises/4', '整合管理'],
+                    ['/exercises/5', '范围管理'],
+                    ['/exercises/6', '进度管理'],
+                    ['/exercises/7', '成本管理'],
+                    ['/exercises/8', '质量管理'],
+                    ['/exercises/9', '资源管理'],
+                    ['/exercises/10', '沟通管理'],
 
                 ]
             }
