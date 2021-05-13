@@ -39,7 +39,8 @@ module.exports = {
                     ['/guide/9', '资源管理'],
                     ['/guide/10', '沟通管理'],
                     ['/guide/11', '风险管理'],
-
+                    ['/guide/12', '采购管理'],
+                    
                 ]
             },
             {
@@ -57,6 +58,7 @@ module.exports = {
                     ['/exercises/9', '资源管理'],
                     ['/exercises/10', '沟通管理'],
                     ['/exercises/11', '风险管理'],
+                    ['/exercises/12', '采购管理'],
 
                 ]
             }
