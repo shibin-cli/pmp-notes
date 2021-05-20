@@ -14,6 +14,10 @@ module.exports = {
                 link: '/guide/'
             },
             {
+                text: 'PMBOK整理',
+                link: '/pmbok/'
+            },
+            {
                 text: '练习题',
                 link: '/exercises/1'
             },
@@ -41,6 +45,25 @@ module.exports = {
                     ['/guide/11', '风险管理'],
                     ['/guide/12', '采购管理'],
                     ['/guide/13', '相关方管理']
+                ]
+            },
+            {
+                path: '/pmbok/1',
+                title: 'PMBOK整理',
+                children: [
+                    ['/pmbok/1', '引论'],
+                    // ['/pmbok/1', '项目运行环境']
+                    // ['/pmbok/3', '项目经理的角色']
+                    ['/pmbok/4', '整合管理'],
+                    ['/pmbok/5', '范围管理'],
+                    ['/pmbok/6', '进度管理'],
+                    ['/pmbok/7', '成本管理'],
+                    ['/pmbok/8', '质量管理'],
+                    ['/pmbok/9', '资源管理'],
+                    ['/pmbok/10', '沟通管理'],
+                    ['/pmbok/11', '风险管理'],
+                    ['/pmbok/12', '采购管理'],
+                    ['/pmbok/13', '相关方管理'],
                 ]
             },
             {
