@@ -15,7 +15,7 @@ module.exports = {
             },
             {
                 text: 'PMBOK整理',
-                link: '/pmbok/'
+                link: '/pmbok/1'
             },
             {
                 text: '练习题',
@@ -28,10 +28,10 @@ module.exports = {
         ],
         sidebar: [{
                 path: '/guide/',
-                collapsable:false,
+                collapsable: false,
                 title: '基础',
                 children: [
-                    ['/guide/','开始'],
+                    ['/guide/', '开始'],
                     ['/guide/1', '引论'],
                     ['/guide/2', '运行环境'],
                     ['/guide/3', '项目经理的角色'],
@@ -87,8 +87,18 @@ module.exports = {
             }
         ]
     },
-    plugins: ['@vuepress/pwa', {
-        serviceWorker: true,
-        updatePopup: true
-    }]
+    plugins: [
+        [
+            '@vuepress/pwa',
+            {
+                serviceWorker: true,
+                updatePopup: {
+                    '/': {
+                        message: '新内容可用',
+                        buttonText: '刷新'
+                    }
+                }
+            }
+        ]
+    ]
 }
