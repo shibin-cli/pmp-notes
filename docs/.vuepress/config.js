@@ -50,6 +50,7 @@ module.exports = {
             {
                 path: '/pmbok/1',
                 title: 'PMBOK整理',
+                collapsable: false,
                 children: [
                     ['/pmbok/1', '引论'],
                     // ['/pmbok/1', '项目运行环境']
