@@ -20,11 +20,7 @@ module.exports = {
             {
                 text: '练习题',
                 link: '/exercises/1'
-            },
-            {
-                text: 'Github',
-                link: 'https://github.com/shibin-cli/pmp-notes'
-            },
+            }
         ],
         sidebar: [{
                 path: '/guide/',
