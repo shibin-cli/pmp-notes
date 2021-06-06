@@ -49,7 +49,7 @@ module.exports = {
                 collapsable: false,
                 children: [
                     ['/pmbok/1', '引论'],
-                    // ['/pmbok/1', '项目运行环境']
+                    ['/pmbok/2', '项目运行环境']
                     // ['/pmbok/3', '项目经理的角色']
                     ['/pmbok/4', '整合管理'],
                     ['/pmbok/5', '范围管理'],
